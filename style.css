@@ -1,0 +1,179 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: roboto;
+}
+
+
+	#container{
+	width: 1100px;
+	margin: 0 auto;
+}
+
+/*======Re-usable======*/
+p {
+	
+
+}
+
+h1 a{
+	font-size: 50px;
+	font-weight: 100;
+	color: #861BBF;
+	text-decoration: none; 
+}
+
+#header{
+	height: 100px;
+	padding: 10 0; 
+}
+
+#brand{
+	float: left;
+
+}
+
+#search-box{
+	float: right;
+	background: linear-gradient(#E4F2B9, #B7E953);
+	width: 400px;
+	height: 50px;
+	padding: 20px 20px 0 20px;
+	margin-top: 20px;
+}
+
+.text{
+	float:
+	width: 200px;
+	padding: 5px;
+	font-size: 15px;
+	color: #E36A0C;
+	background: white url(images/search.png) right center no-repeat;
+	border: 1px solid #C8D03E;
+}
+
+.submit{
+	float: right;
+	padding: 5px;
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+	background: #861BBF;
+}
+
+.clear{
+	clear: both;
+}
+
+#menu{
+	height: 70px;
+	background: linear-gradient(#E8F594, #D5D533);
+	padding: 7px 0;
+}
+ul{
+	list-style: none;
+}
+
+#menu ul li{
+	float: left;
+	padding: 0 40px;
+	height: 30px;
+	border-right: 1px solid #5d12e7;
+}
+
+#menu ul li:last-child{
+	border-right: none;
+}
+#menu ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 17px;
+	color: #5d12e7;
+	line-height: 30px;
+	transition: font-size 0.3s linear;
+}
+
+#menu ul li a:hover, #menu ul li a.active{
+	font-size: 20px;
+	font-weight: bold;
+	color: #C34FDB;
+}
+
+#introduction{
+	background: linear-gradient(#E5F2BB, #B7E952);
+	padding: 30px;
+	margin: 16px 0
+}
+
+#introduction h3{
+	font-size: 45px;
+	color: #316901;
+	font-weight: normal;
+	
+}
+
+
+#introduction p{
+	font-family: roboto;
+	font-size: 20px;
+	font-weight: 300;
+  	color: #628F19;
+	text-align: justify;
+}
+
+.side-bar{
+	height: 600px;
+	width: 450px;
+	border: 1px solid #BAF46F;
+	border-radius: 20px;
+	padding: 10px 30px;
+}
+
+#left-side-bar ul{
+	padding-top: 8px;
+}
+
+#left-side-bar ul li {
+	padding: 1px 0 17px 70px;
+	list-style-image: url(images/arrow.png);
+}
+
+#right-side-bar ul li {
+	padding: 17px 0 17px 70px;
+	background: url(images/tick.png) no-repeat left center; 
+}
+
+.side-bar h3{
+	color: #B314DB;
+	font-size: 30px;
+}
+
+.side-bar ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #5d12e7;
+	transition: font-size 0.3s ease; 
+}
+
+.side-bar ul li a:hover, .side-bar ul li a.active{
+	text-decoration: none;
+	font-size: 23px;
+	color: #5d12e7;
+	font-weight: bold;
+}
+#left-side-bar{
+	float: left;
+}
+
+#right-side-bar{
+	float: right;
+}
+
+.footer{
+	height: 60px;
+	background: linear-gradient(#F6F390, #D5D533);
+	padding: 10px 30px;
+	margin-top: 15px;
+}
